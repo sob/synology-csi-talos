@@ -33,7 +33,7 @@ jobs:
         id: meta
         uses: docker/metadata-action@v4
         with:
-          images: ghcr.io/zebernst/synology-csi
+          images: ghcr.io/sob/synology-csi
           tags: |
             type=semver,prefix=v,pattern={{version}}
             type=semver,prefix=v,pattern={{major}}.{{minor}}
