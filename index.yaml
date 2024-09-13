@@ -3,6 +3,23 @@ entries:
   synology-csi:
   - apiVersion: v2
     appVersion: v1.2.0
+    created: "2024-09-13T05:54:52.000946725Z"
+    description: A Helm chart for the Synology CSI Driver
+    digest: b5f4e7673cbd43549a4b04d2149f45993bca24e2a1148ef1520358646e2d8d34
+    keywords:
+    - Synology
+    - CSI Driver
+    kubeVersion: '>= 1.20.0'
+    name: synology-csi
+    sources:
+    - https://github.com/sob/synology-csi-talos/tree/main
+    - https://github.com/zebernst/synology-csi-talos/tree/main
+    - https://github.com/SynologyOpenSource/synology-csi/tree/main
+    urls:
+    - https://github.com/sob/synology-csi-talos/releases/download/synology-csi-0.9.5-pre.2/synology-csi-0.9.5-pre.2.tgz
+    version: 0.9.5-pre.2
+  - apiVersion: v2
+    appVersion: v1.2.0
     created: "2024-09-02T22:29:13.155330992Z"
     description: A Helm chart for the Synology CSI Driver
     digest: 417ba6209d12c8cf7f23c991cd8d0677689265394c4362a5156f785b0aa10a70
@@ -83,4 +100,4 @@ entries:
     urls:
     - https://github.com/zebernst/synology-csi-talos/releases/download/synology-csi-0.9.3/synology-csi-0.9.3.tgz
     version: 0.9.3
-generated: "2024-09-13T05:45:27.955538005Z"
+generated: "2024-09-13T05:54:52.000985248Z"
